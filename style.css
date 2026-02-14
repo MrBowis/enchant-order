@@ -151,7 +151,7 @@ body h2 {
 
 .inner {
   margin: 30px auto;
-  width: 1000px;
+  width: 70%;
   padding-bottom: 30px;
   overflow: auto;
   background: linear-gradient(
@@ -292,8 +292,8 @@ a:hover {
 }
 
 #right {
-  width: 550px;
-  float: left;
+  width: 75%;
+  max-width: 500px;
   background: linear-gradient(
     135deg,
     var(--phone-warn) 0%,
