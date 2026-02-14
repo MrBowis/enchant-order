@@ -177,15 +177,19 @@ a:hover {
 }
 
 #enchants {
-  width: 400px;
+  width: 100%;
 }
 
 #enchants table {
   border-spacing: 0;
+  max-width: 400px;
+  overflow-x: auto;
+  margin: 0 auto;
 }
 
 #enchants td {
   padding: 0.5em;
+
 }
 
 #enchants tr.group1 td {
@@ -285,10 +289,6 @@ a:hover {
 #calculate {
   padding: 8px;
   font-size: 120%;
-}
-
-#left {
-  width: 400px;
 }
 
 #right {
@@ -472,7 +472,7 @@ a:hover {
     }
   } /* smol screens */
 
-  @media only screen and (min-width: 423px) {
+  @media only screen and (min-width: 500px) {
     .footer {
       text-align: right;
     }
@@ -491,4 +491,12 @@ a:hover {
     width: 90px;
   }*/
   } /* bigger screens */
+}
+
+@media screen and (max-width: 600px) {
+  #enchants table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+  }
 }
