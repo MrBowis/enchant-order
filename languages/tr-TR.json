@@ -57,6 +57,7 @@
         "sword": "Kılıç",
         "axe": "Balta",
         "mace": "Gürz",
+        "spear": "Mızrak",
         "trident": "Üçlü Mızrak",
         "pickaxe": "Kazma",
         "shovel": "Kürek",
@@ -65,7 +66,6 @@
         "shield":"Kalkan",
         "crossbow": "Arbalet",
         "brush": "Fırça",
-	"spear": "Mızrak",
 
         "fishing_rod": "Olta",
         "shears": "Makas",
